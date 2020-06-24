@@ -1,0 +1,79 @@
+body{
+    background-color: #333;
+}
+.box{
+    width: 100px;
+    height: 100px;
+
+}
+.red{
+    background: red;
+    animation-name: shake;
+    animation-duration: .4s;
+    position: relative;
+    animation-iteration-count: infinite;
+
+}
+.blue{
+    background: blue;
+    animation-name: fadeIn;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+.green{
+    background: green;
+    animation-name: jelly;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+.purple{
+    background: purple;
+    animation-name: bounce;
+    position: relative;
+    animation-iteration-count: infinite;
+}
+.white{
+    background: white;
+}
+.grey{
+    background: grey;
+}
+.yellow{
+    background: yellow;
+}
+.pink{
+    background: pink;
+}
+.orange{
+    background: orange;
+}
+.brown{
+    background: brown;
+}
+.coral{
+    background: coral;
+}
+.plum{
+    background: plum;
+}
+
+
+
+
+
+
+
+
+
+@keyframes shake {
+   2%, 100% {transform: translateX(10);}
+   20%, 30% 50%, 70%, 90% {transform: translateX(20px);}
+   20%, 40%, 60%, 80% {transform: translateX(20px);}
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0;
+    100% {opacity: 1;}
+}
