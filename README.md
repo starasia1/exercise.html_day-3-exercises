@@ -6,6 +6,9 @@
   * Viewport
   * Grid View
   * Media Query
+* **Description**
+  * Referring to the slides located [here](https://docs.google.com/presentation/d/e/2PACX-1vRtM9yjY2ULjTTt1JGRFoSEALt_BIIE5Zmz-M3Cfdtd1a_U7PstUtjtoW5TEXObfg/pub?start=false&loop=false&delayms=3000#slide=id.p24), finish each of the `Hands on Activities` by modifying the respective `.html` and `.css` files.
+  * The `Hands on Activities` begin on `slide21` and end on `slide24`
 
 
 
