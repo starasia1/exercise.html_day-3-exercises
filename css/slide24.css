@@ -1,6 +1,6 @@
 .angle {
     position: absolute;
-    top: 1000px;
+    top: 100px;
     left: 500px;
     height: 400px;
     width: 400px;
@@ -8,7 +8,7 @@
 }
 .inner {
     position: absolute;
-    top:1000px;
+    top: 100px;
     left: 500px;
     height: 100px;
     width: 100px;
@@ -18,21 +18,21 @@
 }
 @keyframes aroundThaWorld {    
     0%{ /* move to origin */
-        top: 1000px;
+        top: 100px;
         left: 500px;
     }
     44% { /* move to top right*/
-        top: 1000px;
+        top: 100px;
         left: 810px;
         background-color: red;
     }
     55%{ /* move to bottom left*/
-        top: 1300px;
+        top: 400px;
         left: 500px;
 
     }
     66% { /*move to bottom right*/
-        top: 1300px ;
+        top: 400px ;
         left: 800px;
     }
 
