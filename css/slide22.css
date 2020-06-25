@@ -1,8 +1,8 @@
-.box {
-    width: 100px;
-    height: 100px;
-}
-.orange {
-    background-color: orange;
-    animation: ;
+.angle {
+    position: absolute;
+    top: 1000px;
+    left: 500px;
+    height: 400px;
+    width: 400px;
+    border: solid 5px purple;
 }
