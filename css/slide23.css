@@ -1,0 +1,49 @@
+.angle {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    background-color: white;
+    border: 5px solid rgb(255, 37, 219);
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inner {
+    text-align: center;
+    height: 100px;
+    width: 100px;
+    background-color: rgb(73, 114, 226);
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    animation: change 4s normal 0s infinite;
+    left: 0px;
+    top: 0%;
+    transform: translate(-50%, -50%);
+}
+@keyframes change {
+    /* moves from bottom left to bottom right */
+    25% {
+        left: 0;
+        top: 100%;
+        transform: translate(-50%, -50%);
+    }
+    /* moves from bottom right to top right made changes to the transformation from 0% to -50%*/
+    50% {
+        left: 100%;
+        top: 100%;
+        transform: translate(-50%, -50%);
+    }
+    /* moves from top right to top left three quarters of the line*/
+    75% {
+        left: 100%;
+        top: 0;
+        transform: translate(-50%, -50%);
+    }
+    /* moves from top left to bottom left */
+    100% {
+        left: 0;
+        top: 0;
+        transform: translate(-50%, -50%);
+    }
+}
